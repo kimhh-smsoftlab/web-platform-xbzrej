@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+        "bower": "^1.8.8",
+        "electron": "^11.0.3",
+        "hyperlist": "^1.0.0",
+        "ie11-custom-properties": "^4.1.0",
+        "jquery": "^3.5.1",
+        "jquery-validation": "^1.19.2",
+        "virtual-scroll": "^1.5.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.1",
+        "@babel/core": "^7.12.3",
+        "@babel/plugin-proposal-class-properties": "^7.12.1"
+    },
+    "type": "module"
+}

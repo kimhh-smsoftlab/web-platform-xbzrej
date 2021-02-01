@@ -1,11 +1,29 @@
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <script src="script.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
-  </head>
-  <body>
-    <h1>Hello there!</h1>
-    <a href="/me.html">My other page</a>
-  </body>
+    <head>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+            charset="UTF-8"
+        />
+        <title>HTML5 Study</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="/lib/calendar/calendar.css"
+        />
+        <script defer src="./script.js"></script>
+        <script src="/lib/jquery.min.js"></script>
+        <script src="/public/project_src.js"></script>
+        <script src="/lib/calendar/calendar.js"></script>
+    </head>
+
+    <body class="back_col_gray">
+        <div class="index_header">
+            <h1>Study HTML / CSS / JavaScript</h1>
+        </div>
+        <div class="calendar_group">
+            <div id="calendar-content"></div>
+        </div>
+    </body>
 </html>
